@@ -1,15 +1,26 @@
 body {
   color: #6a6f74;
   font-family: Roboto;
+  width: 600px;
+  margin: 0 auto;
 }
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 80px;
+  text-decoration: underline;
 }
 
 .main-page-list {
   list-style: none;
   text-align: center;
+  margin: 0; /* this centers list */
+  padding: 0; /* this centers list */
 }
 
 a {
@@ -18,5 +29,9 @@ a {
 }
 
 a:hover {
-  background-color: #ced4da;
+  border-bottom: 3px solid rgb(68, 68, 68);
+}
+
+li {
+  margin-bottom: 5px;
 }
